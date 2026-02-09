@@ -1,0 +1,198 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #28282b;
+  color: #43eef7;
+}
+
+h1 {
+  font-size: 5.5rem;
+  color: #2cff05;
+  margin-top: 0.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 7rem;
+  margin-bottom: -1rem;
+  color: #2cff05;
+  margin-left: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+table {
+  border: 1px solid #2cff05;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  padding: 1rem;
+}
+
+th {
+  font-size: 2rem;
+  padding: 2.76rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #2cff05;
+  text-align: center;
+}
+
+tr {
+  margin-bottom: 5rem;
+}
+
+td {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+button {
+  padding: 0rem;
+  background-color: #28282b;
+}
+
+button:focus,
+button:focus-visible {
+  outline: none;
+}
+
+button:hover {
+  border-color: #2cff05;
+}
+
+.slogan {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: -2rem;
+}
+
+.app-nav {
+  margin-top: 3rem;
+}
+
+.home-link,
+.add-link {
+  color: #43eef7;
+  border: 1px solid #2cff05;
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.home-link {
+  margin-left: 1rem;
+}
+
+.add-link {
+  margin-left: 2rem;
+}
+
+.home-page-body {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.add-container,
+.edit-container {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.add-exercise-button,
+.add-page-button,
+.update-button {
+  color: #43eef7;
+  border: 1px solid #2cff05;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.add-exercise-button:hover,
+.add-page-button:hover,
+.update-button:hover,
+.home-link:hover,
+.add-link:hover {
+  background-color: #43eef7;
+  color: #28282b;
+}
+
+.edit-button,
+.delete-button {
+  border: none;
+  background-color: #28282b;
+  font-size: 1.5rem;
+  color: #43eef7;
+  padding-left: 0.5rem;
+  padding-right: 1.5rem;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  color: #2cff05;
+}
+
+.edit-button:active,
+.delete-button:active {
+  color: #f9f9f3;
+  border: none;
+}
+
+.add-container input,
+.edit-container input,
+.add-container select,
+.edit-container select {
+  margin-right: 5rem;
+  margin-top: 3rem;
+  padding-left: 0.5rem;
+  width: 9rem;
+  height: 3rem;
+  font-size: 1rem;
+  border: 0.2rem solid #2cff05;
+  border-radius: 0.5rem;
+  color: #43eef7;
+}
+
+.add-container select {
+  color: #757575;
+  width: 10rem;
+  height: 3.5rem;
+}
+
+.edit-container select {
+  width: 10rem;
+  height: 3.5rem;
+}
+
+.add-container input::placeholder,
+.add-container select::placeholder {
+  padding: 0.5rem;
+}
+
+.add-input-rows,
+.edit-input-rows {
+  padding-left: 2.9rem;
+}
+
+.add-page-button,
+.update-button {
+  margin-top: 5rem;
+  color: #43eef7;
+  border: 1px solid #2cff05;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 0.5rem;
+}
